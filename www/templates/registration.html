@@ -1,0 +1,31 @@
+<ion-view title="Registrazione">
+    <ion-content ng-controller="RegisterCtrl">
+
+        <div class="main">
+
+
+            <form ng-submit="">
+                <div class="feild_sec regis_sec">
+                    <ul>
+                        <li><input type="text" placeholder="Username" ng-model="userRegiter.cognome"></li>
+                        <li class="date_li"><span ng-hide="dob != undefined" class="date-placeholder">Data Di Nascita</span><input type="date" placeholder="Data Di Nascita"
+                                   ng-model="dob" ng-change="setDate(dob)"> </li>
+                        <li><input type="number" placeholder="Numero Mobile"
+                                   ng-model="userRegiter.tel1"></li>
+                        <li><input type="email" placeholder="Email"  ng-model="userRegiter.email">
+                        </li>
+                        <li><input type="password" placeholder="Password"
+                                   ng-model="userRegiter.password"></li>
+                        <li><input type="password" placeholder="Confirm Password"
+                                   ng-model="confirm_password"></li>
+                        <li>
+                            <button class="button button-block est-btns" type="submit" ng-click="regsiter()">
+                                Registrazione
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>

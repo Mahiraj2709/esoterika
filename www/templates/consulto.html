@@ -1,0 +1,48 @@
+<ion-view title="Prenota un consulto">
+  <ion-content>
+
+<div class="main">
+
+
+    <form ng-submit="">
+      <div class="feild_sec regis_sec">
+      <ul>
+      <li> <select ng-model="consulto.date">
+        <option ng-repeat="date in appointmentDates"  ng-value="date" ng-change="getTimeByDate(consulto.date)">{{date}}</option>
+      </select></li>
+          <li> <select ng-model="consulto.time">
+              <option ng-repeat="time in appointmentTimes"  ng-value="time">{{time}}</option>
+          </select></li>
+      <li> <input type="text" placeholder="Nome" ng-model="profile.cognome" required="required" disabled></li>
+      <li> <input type="text" placeholder="Numero" ng-model="profile.tel1" required="required" disabled></li>
+    </ul>
+    <h3>Servizio</h3>
+    <ul>
+      <div>
+          <li>
+            <select ng-model="consulto.servizio">
+                <option value="'Carta di credito prepagata'">Carta di credito prepagata </option>
+                <option value="'Servizio 899'">Servizio 899 </option>
+                <option value="'Servizio Cortesia'">Servizio Cortesia</option>
+                <option value="'Cartomazia per l’Estero'">Cartomazia per l’Estero </option>
+                <option value="'Servizio Notturno'">Servizio Notturno </option>
+            </select>
+
+          <li><input type="checkbox" ng-model="checkValue.value"> <p ng-click="openPrivacyPolicy()">Informativa sulla privacy </p></li>
+          <li><button class="button button-block est-btns" type="submit" ng-click="bookAppointment()">PRENOTA</button> </li>
+          </li>
+
+      </div>
+     <!--<li> <input type="text" placeholder="" required="required" ></li>
+      <li> <input type="text" placeholder="Servizio 899" required="required" ></li>
+      <li> <input type="text" placeholder="Servizio Cortesia" required="required" ></li>
+      <li> <input type="text" placeholder="Cartomazia per l’Estero" required="required" ></li>   
+      <li> <input type="text" placeholder="Servizio Notturno" required="required" ></li>   
+
+      </ul>
+      </div>
+    </form>
+
+    </div>
+  </ion-content>
+</ion-view>

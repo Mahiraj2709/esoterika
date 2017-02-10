@@ -1,0 +1,30 @@
+<ion-view title="Accedi">
+    <ion-header-bar class="esthead">
+        <h1 class="title">Accedi</h1>
+        <ion-nav-buttons side="left">
+            <button class="button button-clear icon ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+    </ion-header-bar>
+    <ion-content ng-controller="LoginCtrl">
+
+        <div class="main">
+            <aside class="logo_section"><img src="img/logo.png" alt=""></aside>
+
+            <form ng-submit="doLogin()">
+                <div class="feild_sec">
+                    <ul>
+                        <li><input type="text" placeholder="Username" required="required" ng-model="user.cognome"></li>
+                        <li class="date_li"><span ng-hide="user.datanascitaid != undefined" class="date-placeholder">Data Di Nascita</span><input type="date" placeholder="Data Di Nascita" required="required" ng-model="user.datanascitaid"></li>
+                        <li><input type="password" placeholder="Password" required="required" ng-model="user.password">
+                        </li>
+                        <li><input type="checkbox" ng-model="loginData.remember"> Ricorda i miei dati</li>
+                        <li>
+                            <button class="button button-block est-btns" ng-click="login()" type="submit">Accesso
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>

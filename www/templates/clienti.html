@@ -1,0 +1,31 @@
+<ion-view view-title="Clienti">
+    <ion-content>
+        <div class="main">
+            <ion-card-content class="full-container">
+
+                <ul class="clienti-list">
+                    <li class="row"><span class="col"> Nome Cognome:</span> <span class="col"> {{cleinte.cognome}} </span></li>
+                    <li class="row"> <span class="col"> Data di nascita: </span> <span class="col"> {{cleinte.datanascitaid}} </span> </li>
+                    <li class="row"> <span class="col"> Telefono:</span> <span class="col"> {{cleinte.tel1}} </span> </li>
+                    <li class="row"> <span class="col"> Tariffa: </span> <span class="col"> {{cleinte.tariffa}}  </span> </li>
+                    <li class="row"> <span class="col"> Indirizzo: </span>  <span class="col"> {{cleinte.address}} </span></li>
+                </ul>
+
+                <ul class="clienti-list">
+                    <li class="row"><span class="col"> Metodo di pagamento: </span> <span class="col"> Paypal  </span> </li>
+                    <li class="row"><span class="col">Saldo contabile:</span> <span class="col"> {{cleinte.amount | currency}}  </span> </li>
+                    <li class="row"><span class="col"> Saldo minuti: </span> <span class="col">   {{cleinte.minutes}}Mins </span> </li>
+                </ul>
+
+                <ul class="clienti-list">
+                    <li class="row"><span class="col"> Ricarica:</span>  <span class="col">  <img src="img/paypal.png" alt="" ng-click="showPayment()"> </span> </li>
+                </ul>
+
+                <aside class="button_set">
+                    <!--<button class="button button-block est-btns" type="submit" ui-sref="app.storico">Storico</button>-->
+                    <button class="button button-block est-btns" type="submit" ng-click="comingSoon()">Storico</button>
+                </aside>
+            </ion-card-content>
+        </div>
+    </ion-content>
+</ion-view>

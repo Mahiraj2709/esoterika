@@ -1,0 +1,32 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="esthead" align-title="center">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" width= "120">
+
+    <ion-content>
+    <div class="left-nav">
+      <ul>
+        <li menu-close ui-sref=".screen5"> <img src="img/home-icon.png" alt=""> Home </li>
+        <li menu-close ng-click="clienti()"> <img src="img/user-icon.png" alt=""> Clienti </li>
+        <li menu-close ng-click="comingSoon()"> <img src="img/contact-icon.png" alt=""> Contattaci </li>
+        <li menu-close ng-click="cartomani()"> <img src="img/book-icon.png" alt=""> Cartomanti </li>
+        <li menu-close  ng-click="comingSoon()"> <img src="img/oroscopo-icon.png" alt=""> Oroscopo </li>
+        <li menu-close ng-click="comingSoon()"> <img src="img/social-icon.png" alt=""> Social </li>
+        <li menu-close ng-click="comingSoon()"> <img src="img/settings-icon.png" alt=""> Impostazioni </li>
+        <!--<li menu-close ui-sref=".screen5"> <img src="img/settings-icon.png" alt=""> Logout </li>-->
+      </ul>
+    </div>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

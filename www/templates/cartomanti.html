@@ -1,0 +1,24 @@
+<ion-view title="Cartomanti">
+    <ion-content>
+        <div class="main">
+            <h2 class="carto_manti_head"> Le Cartomanti dell’Amore <span> <em>di Studio Esoterika </em> </span></h2>
+
+
+            <div class="shade-bg">
+                <h3 class="txt-center">Scegli il tuo cartomante</h3>
+                <ul class="button_set_list">
+                    <li ng-repeat="emp in empArray">
+        <span>
+            <button ng-click="openDetail(emp)" ng-style="{background:emp.color}" class="button button-block carto_btns"
+                    type="submit">{{emp.nomearte}} {{emp.start_time | removeNaN}}-{{emp.end_time | removeNaN}}</button> </span>
+                        <!--<span style="width: 50%;float: left;display: block;"> <button class="button button-block carto_btns green" type="submit">Sara 29-32</button> </span>-->
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+
+<div class="row">
+</div>
