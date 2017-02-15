@@ -18,4 +18,9 @@ ionicModule.filter('removeNaN', function () {
                 return number
             }
         }
+    })
+    .filter('firstCapitalize', function() {
+        return function(input) {
+            return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
+        };
     });

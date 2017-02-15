@@ -66,6 +66,45 @@ ionicModule.factory('services', function ($http,$ionicLoading,$httpParamSerializ
             return callback(false);
         });
     }
+    // to get all services for unit
+    function getstorico(customerId, callback) {
+        $ionicLoading.show({
+            template: ' Caricamento in corso...'
+        });
+        $http({
+            url: baseURL + 'storico',
+            method: "POST",
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            data: $httpParamSerializerJQLike({id:customerId})
+        }).success(function (res, req) {
+            $ionicLoading.hide()
+            console.log(JSON.stringify(res))
+            return callback(res);
+        }).error(function (err) {
+            $ionicLoading.hide()
+            return callback(false);
+        });
+    }
+
+    // to get all services for unit
+    function deleteappointment(appointment, callback) {
+        $ionicLoading.show({
+            template: ' Caricamento in corso...'
+        });
+        $http({
+            url: baseURL + 'deleteappointment',
+            method: "POST",
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            data: $httpParamSerializerJQLike(appointment)
+        }).success(function (res, req) {
+            $ionicLoading.hide()
+            console.log(JSON.stringify(res))
+            return callback(res);
+        }).error(function (err) {
+            $ionicLoading.hide()
+            return callback(false);
+        });
+    }
 
     // to get all services for unit
     function getpush(customerId, callback) {
@@ -108,7 +147,7 @@ ionicModule.factory('services', function ($http,$ionicLoading,$httpParamSerializ
     }
 
     // to get all services for unit
-    function getfortunedatewise(pushData, callback) {
+    function getfortunedatewise(oroscope, callback) {
         $ionicLoading.show({
             template: ' Caricamento in corso...'
         });
@@ -116,7 +155,7 @@ ionicModule.factory('services', function ($http,$ionicLoading,$httpParamSerializ
             url: baseURL + 'getfortunedatewise',
             method: "POST",
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-            data: $httpParamSerializerJQLike(pushData)
+            data: $httpParamSerializerJQLike(oroscope)
         }).success(function (res, req) {
             $ionicLoading.hide()
             console.log(JSON.stringify(res))
@@ -232,6 +271,8 @@ ionicModule.factory('services', function ($http,$ionicLoading,$httpParamSerializ
         login: login,
         register: register,
         getcustomerinfo:getcustomerinfo,
+        getstorico:getstorico,
+        deleteappointment:deleteappointment,
         getpush:getpush,
         setpush:setpush,
         getallemployees:getallemployees,

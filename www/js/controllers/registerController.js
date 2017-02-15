@@ -11,7 +11,8 @@ ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$locat
     }
     $scope.dob = undefined
     $scope.setDate = function (date) {
-        $scope.userRegiter.datanascitaid = date.toISOString().split('T')[0]
+        $scope.selectedDate  = date;
+        $scope.userRegiter.datanascitaid = date.toString('yyyy-MM-dd')
     }
     $scope.regsiter = function () {
         if (validUser()) {
@@ -28,6 +29,10 @@ ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$locat
         }
     }
     function validUser() {
+        //console.log($scope.selectedDate)
+        //console.log(new Date())
+        //console.log($scope.slectedDate >= new Date())
+
         if ($scope.userRegiter.cognome == undefined || $scope.userRegiter.cognome == '') {
 //            popups.showAlert('Username field can't be left blank!')
             popups.showAlert('Nome utente campo non può essere lasciato vuoto')
@@ -36,7 +41,11 @@ ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$locat
             popups.showAlert('Seleziona la data di nascita')
 //            popups.showAlert('Please select date of birth!')
             return false
-        } else if (!$scope.userRegiter.tel1) {
+        }/* else if ($scope.slectedDate >= new Date()) {
+            popups.showAlert('Please select a valid date of birth')
+//            popups.showAlert('Please select date of birth!')
+            return false
+        }*/else if (!$scope.userRegiter.tel1) {
             popups.showAlert("campo numero di telefono non può essere lasciato vuoto");
 //            popups.showAlert("Phone Number field can't be left blank");
             return false
@@ -60,7 +69,11 @@ ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$locat
 //            popups.showAlert("Password length should be minimum 6");
             popups.showAlert("La password deve contenere almeno 8 caratteri");
             return false
-        } else if ($scope.confirm_password == undefined || ($scope.confirm_password != $scope.userRegiter.password)) {
+        } else if ($scope.confirm_password == undefined) {
+//            popups.showAlert("Password length should be minimum 6");
+            popups.showAlert("Conferma Password non può essere lasciato vuoto");
+            return false
+        }else if ($scope.confirm_password != $scope.userRegiter.password) {
             popups.showAlert("Le password non corrispondono. Riprova!");
 //            popups.showAlert("Passwords doesn't match. Please try again");
             return false
@@ -79,7 +92,7 @@ ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$locat
     }
 
     function validPhoneNo(phoneNo) {
-        var phoneno = /^\d{10}$/;
+        var phoneno = /^[0-9]{6,14}$/;
         if (String(phoneNo).match(phoneno)) {
             return true;
         } else {

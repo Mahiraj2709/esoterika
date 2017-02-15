@@ -1,0 +1,28 @@
+<ion-view view-title="Oroscopo">
+    <ion-content>
+        <div class="main">
+            <h2 class="txt-center"> Oroscopo della settimana <span> Clicca sul tuo segno zodiacale! </span></h2>
+
+            <div class="feild_sec regis_sec">
+                <ul>
+                    <li class="date_li"><span ng-hide="selectedDate.date != undefined" class="date-placeholder">Data</span>
+                        <input type="date" placeholder="Data Di Nascita" required="required" ng-model="selectedDate.date"></li>
+                </ul>
+            </div>
+
+            <div class="shade-bg martop-25">
+                <ul class="oroscopo_list">
+                    <li ng-repeat="orscope in oroscopes" ng-click="getOroscope(orscope.id)">
+                        <a href=""> <img src="{{orscope.image}}"/> </a>
+                        <span>{{orscope.name}}</span>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

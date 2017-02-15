@@ -5,7 +5,7 @@
 
                 <ul class="clienti-list">
                     <li class="row"><span class="col"> Nome Cognome:</span> <span class="col"> {{cleinte.cognome}} </span></li>
-                    <li class="row"> <span class="col"> Data di nascita: </span> <span class="col"> {{cleinte.datanascitaid}} </span> </li>
+                    <li class="row"> <span class="col"> Data di nascita: </span> <span class="col"> {{cleinte.datanascitaid | date}} </span> </li>
                     <li class="row"> <span class="col"> Telefono:</span> <span class="col"> {{cleinte.tel1}} </span> </li>
                     <li class="row"> <span class="col"> Tariffa: </span> <span class="col"> {{cleinte.tariffa}}  </span> </li>
                     <li class="row"> <span class="col"> Indirizzo: </span>  <span class="col"> {{cleinte.address}} </span></li>
@@ -23,7 +23,7 @@
 
                 <aside class="button_set">
                     <!--<button class="button button-block est-btns" type="submit" ui-sref="app.storico">Storico</button>-->
-                    <button class="button button-block est-btns" type="submit" ng-click="comingSoon()">Storico</button>
+                    <button class="button button-block est-btns" type="submit" ui-sref="app.storico">Storico</button>
                 </aside>
             </ion-card-content>
         </div>

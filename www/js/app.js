@@ -13,7 +13,7 @@ var ionicModule = angular.module(ionicApplicationName, [
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
             // for form inputs)
             // Hide splash screen
-            setTimeout(function() {
+            setTimeout(function () {
                 navigator.splashscreen.hide();
             }, 1500);
             if (window.cordova && window.cordova.plugins.Keyboard) {
@@ -48,31 +48,28 @@ var ionicModule = angular.module(ionicApplicationName, [
                 views: {
                     'menuContent': {
                         templateUrl: 'templates/clienti.html',
-                        controller:'ClenteCtrl'
+                        controller: 'ClenteCtrl'
                     }
                 }
             })
-
             .state('app.contattaci', {
                 url: '/contattaci',
                 views: {
                     'menuContent': {
                         templateUrl: 'templates/contattaci.html',
-                        controller:'ContattaciCtrl'
+                        controller: 'ContattaciCtrl'
                     }
                 }
             })
-
             .state('app.storico', {
                 url: '/storico',
                 views: {
                     'menuContent': {
                         templateUrl: 'templates/storico.html',
-//                        controller:'ClenteCtrl'
+                        controller:'StoricoCtrl'
                     }
                 }
             })
-
             .state('app.browse', {
                 url: '/browse',
                 views: {
@@ -126,7 +123,6 @@ var ionicModule = angular.module(ionicApplicationName, [
                     }
                 }
             })
-
             .state('app.cartomanti_detail', {
                 url: '/cartomanti_detail',
                 views: {
@@ -136,7 +132,6 @@ var ionicModule = angular.module(ionicApplicationName, [
                     }
                 }
             })
-
             .state('app.consulto', {
                 url: '/consulto',
                 views: {
@@ -147,6 +142,54 @@ var ionicModule = angular.module(ionicApplicationName, [
                 }
             })
 
+            .state('app.prenato', {
+                url: '/prenato',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/prenato_consulto.html',
+                        controller: 'PrenatoCtrl'
+                    }
+                }
+            })
+
+            .state('app.oroscope', {
+                url: '/oroscope',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/oroscopo.html',
+                        controller: 'OroscopoCtrl'
+                    }
+                }
+            })
+            .state('app.oroscope_detail', {
+                url: '/oroscope_detail',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/oroscopo_detail.html',
+                        controller: 'OroscopeDetailCtrl'
+                    }
+                }
+            })
+            .state('app.social', {
+                url: '/social',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/social.html',
+                        controller: 'SocialCtrl'
+                    }
+                }
+            })
+            .state('app.impostazioni', {
+                url: '/impostazioni',
+                views: {
+                    'menuContent': {
+                        templateUrl: 'templates/impostazioni.html',
+                        controller: 'ImpostazioniCtrl'
+                    }
+                }
+            })
+
+
             .state('app.single', {
                 url: '/playlists/:playlistId',
                 views: {
@@ -155,13 +198,14 @@ var ionicModule = angular.module(ionicApplicationName, [
                         controller: 'PlaylistCtrl'
                     }
                 }
-            });
+            })
+
         // if none of the above states are matched, use this as the fallback
         console.log(localStorage.getItem('login'))
 //        $urlRouterProvider.otherwise('/app/screen2');
-        if(localStorage.getItem('login') ){
+        if (localStorage.getItem('login')) {
             $urlRouterProvider.otherwise('/app/screen5');
-        }else {
-         $urlRouterProvider.otherwise('/app/screen2');
+        } else {
+            $urlRouterProvider.otherwise('/app/screen2');
         }
     });

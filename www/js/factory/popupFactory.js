@@ -1,7 +1,7 @@
 /**
  * Created by admin on 2/6/2017.
  */
-ionicModule.factory('popups',function ($ionicPopup) {
+ionicModule.factory('popups',function ($ionicPopup,$ionicHistory,$location ) {
     // An alert dialog
    showAlert = function (message) {
         var alertPopup = $ionicPopup.alert({
@@ -23,9 +23,31 @@ ionicModule.factory('popups',function ($ionicPopup) {
         })
     }
 
+    logout = function () {
+        $ionicPopup.confirm({
+            title: 'Logout',
+//            template: 'Are you sure you want logout?'
+            template: 'Sei sicuro di volere logout?'
+        }).then(function (res) {
+            if (res) {
+                //logout from the app
+                window.localStorage.removeItem("porfile");
+                window.localStorage.removeItem("login");
+                //popups.showMessage(response.response_msg)
+                $ionicHistory.clearHistory()
+                $ionicHistory.clearCache().then(function () {
+                    $location.url('/app/screen2')
+                });
+            } else {
+                //console.log('You are not sure');
+            }
+        });
+    }
+
    return {
        showAlert:showAlert,
        showMessage:showMessage,
-       showPayment:showPayment
+       showPayment:showPayment,
+       logout:logout
    }
 })

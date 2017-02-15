@@ -1,0 +1,26 @@
+<ion-view view-title="Impostazioni">
+    <ion-content>
+
+        <div class="main">
+
+
+
+            <div class="shade-bg chk_list">
+                <h3>Che notifiche vuoi ricevere?</h3>
+                <ul>
+                    <li> <input type="checkbox" ng-model="oroscopo" ng-change="oroscopo?pushData.oroscopo = '1':pushData.oroscopo = '0';setPush()"> <button class="button button-block est-btns" type="submit">Oroscopo</button>  </li>
+                    <li> <input type="checkbox" ng-model="stream" ng-change="stream?pushData.stream = '1':pushData.stream = '0';setPush()"> <button class="button button-block est-btns" type="submit">Puntata Streaming</button>  </li>
+                    <li> <input type="checkbox" ng-model="tv" ng-change="tv?pushData.tv = '1':pushData.tv = '0';setPush()"> <button class="button button-block est-btns" type="submit">Puntata TV</button>  </li>
+                    <li> <input type="checkbox" ng-model="inlinea" ng-change="inlinea?pushData.inlinea = '1':pushData.inlinea = '0';setPush()"> <button class="button button-block est-btns" type="submit">Cartomanti preferiti in linea</button>  </li>
+                    <li> <input type="checkbox" ng-model="informazioni" ng-change="informazioni?pushData.informazioni = '1':pushData.informazioni = '0';setPush()"> <button class="button button-block est-btns" type="submit">Informazioni</button>  </li>
+                    <li> <input type="checkbox" ng-model="problemi" ng-change="problemi?pushData.problemi = '1':pushData.problemi = '0';setPush()"> <button class="button button-block est-btns" type="submit">Problemi</button>  </li>
+                    <li> <input type="checkbox" ng-model="nuoviservizi" ng-change="nuoviservizi?pushData.nuoviservizi = '1':pushData.nuoviservizi = '0';setPush()"> <button class="button button-block est-btns" type="submit">Nuovi servizi</button>  </li>
+                    <li> <input type="checkbox" ng-model="taroccoGiorno" ng-change="taroccoGiorno?pushData.taroccoGiorno = '1':pushData.taroccoGiorno = '0';setPush()"> <button class="button button-block est-btns" type="submit">Tarocco del giorno</button>  </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </ion-content>
+</ion-view>

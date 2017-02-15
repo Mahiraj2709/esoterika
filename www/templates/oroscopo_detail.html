@@ -1,0 +1,23 @@
+<ion-view view-title="Oroscopo">
+  <ion-content>
+    <div class="main">
+    <h2 class="txt-center"> Oroscopo della settimana <span> Data - {{oroscopeDetail.date |date}} </span> </h2>
+
+    
+     <div class="oroscopo-details">
+      
+     <aside class="oroscopo-figure"> 
+         <a href=""> <img src="img/leone.png" ng-src="{{image}}"/> </a>
+       <span>{{oroscopeDetail.horoscope_sign | firstCapitalize}}</span>
+
+      </aside>
+   
+     <aside>
+         <p>{{oroscopeDetail.msg}}</p>
+     <span ng-click="socialSharing()" class="f-share"> <i class="fa fa-facebook" aria-hidden="true"></i> Share</span> </p>
+     </aside>
+  </div>
+
+    </div>
+  </ion-content>
+</ion-view>

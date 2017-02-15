@@ -1,4 +1,4 @@
-ionicModule.controller('AppCtrl', function ($scope, $ionicModal,$location, $timeout,popups) {
+ionicModule.controller('AppCtrl', function ($scope, $ionicModal, $location, $timeout, popups) {
 
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.
@@ -10,13 +10,23 @@ ionicModule.controller('AppCtrl', function ($scope, $ionicModal,$location, $time
     $scope.comingSoon = function () {
         popups.showAlert('Prossimamente!')
     }
-
     $scope.cartomani = function () {
         $location.url('/app/cartomanti');
     }
-
     $scope.clienti = function () {
         $location.url('/app/clienti');
+    }
+    $scope.oroscope = function () {
+        $location.url('/app/oroscope');
+    }
+    $scope.social = function () {
+        $location.url('/app/social');
+    }
+    $scope.impostazioni = function () {
+        $location.url('/app/impostazioni');
+    }
+    $scope.logout = function () {
+        popups.logout()
     }
 })
     .controller('PlaylistsCtrl', function ($scope) {

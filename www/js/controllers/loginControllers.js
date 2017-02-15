@@ -20,8 +20,12 @@ ionicModule.controller('LoginCtrl', function ($scope, services, popups, $locatio
             }
             //chage date to given format
             var date = $scope.user.datanascitaid;
-            $scope.user.datanascitaid = $scope.user.datanascitaid.toISOString().split('T')[0]
+            //console.log($scope.user.datanascitaid)
 
+            //console.log((new Date()).format('yyyy-MM-dd'))
+            $scope.user.datanascitaid = ($scope.user.datanascitaid).toString('yyyy-MM-dd')
+
+            console.log(JSON.stringify($scope.user))
             services.login($scope.user, function (response) {
                 if (response.response_status == '1') {
                     if (response.response_key == 'SUCCESS') {
@@ -39,6 +43,8 @@ ionicModule.controller('LoginCtrl', function ($scope, services, popups, $locatio
                     }else {
                         popups.showAlert(response.response_msg)
                     }
+                }else {
+                    popups.showAlert(response.response_msg)
                 }
             })
             $scope.user.datanascitaid = date

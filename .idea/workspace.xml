@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcc3566b-4009-49b8-9636-1500c010908e" name="Default" comment="" />
+    <list default="true" id="fcc3566b-4009-49b8-9636-1500c010908e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/Pesci.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/acquario.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ariete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/bilancia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/cancro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/capricorno.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/gemelli.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/instagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/leone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/logout-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/sagittario.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/scorpione.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/toro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/user-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ustream.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/virgine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/you-tube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/impostazioniCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/oroscopoCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/controllers/socialController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/impostazioni.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/oroscopo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/oroscopo_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/prenato_consulto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/social.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/consultoCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/consultoCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js" afterPath="$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/loginControllers.js" afterPath="$PROJECT_DIR$/www/js/controllers/loginControllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/registerController.js" afterPath="$PROJECT_DIR$/www/js/controllers/registerController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/factory/popupFactory.js" afterPath="$PROJECT_DIR$/www/js/factory/popupFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/factory/serviceFactory.js" afterPath="$PROJECT_DIR$/www/js/factory/serviceFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/filters/commonFilters.js" afterPath="$PROJECT_DIR$/www/js/filters/commonFilters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/clienti.html" afterPath="$PROJECT_DIR$/www/templates/clienti.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/consulto.html" afterPath="$PROJECT_DIR$/www/templates/consulto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/contattaci.html" afterPath="$PROJECT_DIR$/www/templates/contattaci.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/menu.html" afterPath="$PROJECT_DIR$/www/templates/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/storico.html" afterPath="$PROJECT_DIR$/www/templates/storico.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,21 +67,53 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clienti.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/clienti.html">
+      <file leaf-file-name="contattaciCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="101" lean-forward="false" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
+            <state relative-caret-position="272">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cartomanti.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/cartomanti.html">
+      <file leaf-file-name="contattaci.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/contattaci.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/registerController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clienti.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/clienti.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/registration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -41,63 +122,9 @@
       <file leaf-file-name="cartomantiCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers/cartomantiCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cartomanti_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/cartomanti_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/registerController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/controllers/mainController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="e#41#81#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,18 +132,38 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="-42">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <file leaf-file-name="popupFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/factory/popupFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consultoCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/consultoCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientInfoCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -134,17 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>signupDetails</find>
-      <find>mobile</find>
-      <find>user</find>
-      <find>Please enter username</find>
-      <find>$scope</find>
-      <find>screen-2</find>
-      <find>required=&quot;required&quot;</find>
-      <find>screen2</find>
-      <find>ClenteCtrl</find>
-      <find>getemployeeinfo</find>
-      <find>remember</find>
       <find>consultoCtrl</find>
       <find>getdatetime</find>
       <find>submitappointment</find>
@@ -164,6 +200,17 @@
       <find>ng-value</find>
       <find>register</find>
       <find>$ionicHistory</find>
+      <find>ui-sref</find>
+      <find>getfortunedatewise</find>
+      <find>date</find>
+      <find>OroscopeDetailCtrl</find>
+      <find>oroscope_detail</find>
+      <find>storico</find>
+      <find>deleteappointment</find>
+      <find>AppointmentFactory</find>
+      <find>pushData.</find>
+      <find>0</find>
+      <find>datanascitaid</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
@@ -173,7 +220,13 @@
       <replace>Caricamento in corso</replace>
       <replace>value</replace>
       <replace>Caricamento in corso...</replace>
+      <replace>ng-click</replace>
+      <replace>'1'</replace>
+      <replace>'0'</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -182,33 +235,43 @@
         <option value="$PROJECT_DIR$/www/js/controllers/loginController.js" />
         <option value="$PROJECT_DIR$/www/js/factory/validationFactory.js" />
         <option value="$PROJECT_DIR$/www/templates/screen-2.html" />
-        <option value="$PROJECT_DIR$/www/js/filters/commonFilters.js" />
         <option value="$PROJECT_DIR$/www/js/config.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/cartomantiDetailCtrl.js" />
         <option value="$PROJECT_DIR$/www/templates/screen-5.html" />
         <option value="$PROJECT_DIR$/www/templates/payment.html" />
-        <option value="$PROJECT_DIR$/www/js/factory/popupFactory.js" />
         <option value="$PROJECT_DIR$/www/js/controllers/contattaci.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js" />
-        <option value="$PROJECT_DIR$/www/templates/contattaci.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/mainController.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/consultoCtrl.js" />
-        <option value="$PROJECT_DIR$/www/templates/consulto.html" />
-        <option value="$PROJECT_DIR$/www/js/factory/serviceFactory.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/loginControllers.js" />
         <option value="$PROJECT_DIR$/www/templates/cartomanti.html" />
-        <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/templates/login.html" />
         <option value="$PROJECT_DIR$/www/templates/cartomanti_detail.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js" />
-        <option value="$PROJECT_DIR$/www/templates/clienti.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/cartomantiCtrl.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/registerController.js" />
         <option value="$PROJECT_DIR$/www/templates/registration.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/templates/oroscopo.html" />
+        <option value="$PROJECT_DIR$/www/js/filters/commonFilters.js" />
+        <option value="$PROJECT_DIR$/www/templates/oroscopo_detail.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/socialController.js" />
+        <option value="$PROJECT_DIR$/www/templates/social.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/oroscopoCtrl.js" />
+        <option value="$PROJECT_DIR$/www/templates/consulto.html" />
+        <option value="$PROJECT_DIR$/www/templates/storico.html" />
+        <option value="$PROJECT_DIR$/www/js/factory/serviceFactory.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js" />
+        <option value="$PROJECT_DIR$/www/templates/prenato_consulto.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js" />
+        <option value="$PROJECT_DIR$/www/templates/contattaci.html" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/loginControllers.js" />
+        <option value="$PROJECT_DIR$/www/templates/impostazioni.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/controllers/impostazioniCtrl.js" />
         <option value="$PROJECT_DIR$/www/templates/menu.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/js/factory/popupFactory.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers/consultoCtrl.js" />
+        <option value="$PROJECT_DIR$/www/templates/clienti.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/registerController.js" />
       </list>
     </option>
   </component>
@@ -229,7 +292,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
+    <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectView">
@@ -247,7 +310,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,6 +369,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Esoterika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Esoterika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Esoterika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Esoterika" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -328,7 +439,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,45 +461,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esoterika" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esoterika" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esoterika" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Esoterika" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,15 +473,18 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/mainController.js&#10;menu&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/menu.html&#10;app&#9;null&#9;null&#10;carto&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/cartomantiCtrl.js&#10;regis&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/registration.html&#10;car&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/cartomantiCtrl.js&#10;cl&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/clienti.html&#10;cli&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/clientInfoCtrl.js&#10;regi&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/registerController.js&#10;login&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/loginControllers.js&#10;servic&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/serviceFactory.js&#10;contr&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers.js&#10;con&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/mainController.js&#10;consul&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/consulto.html&#10;inde&#9;FILE&#9;file://D:/Angular/Esoterika/www/index.html&#10;style&#9;FILE&#9;file://D:/Angular/Esoterika/www/css/style.css&#10;conta&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/contattaciCtrl.js&#10;ind&#9;FILE&#9;file://D:/Angular/Esoterika/www/index.html&#10;men&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/menu.html&#10;sty&#9;FILE&#9;file://D:/Angular/Esoterika/www/css/style.css&#10;pop&#9;null&#9;null&#10;cons&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/consulto.html&#10;conf&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/config.js&#10;filter&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/filters/commonFilters.js&#10;index&#9;FILE&#9;file://D:/Angular/Esoterika/www/index.html&#10;cartom&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/cartomanti.html&#10;scree&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/screen-5.html&#10;R&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/registerController.js&#10;servi&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/serviceFactory.js&#10;log&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/loginControllers.js&#10;confi&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/config.js&#10;ap&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/app.js&#10;lo&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/loginControllers.js" />
+    <property name="SearchEverywhereHistoryKey" value="clie&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/clienti.html&#10;regi&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/registerController.js&#10;consul&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/consultoCtrl.js&#10;car&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/cartomantiCtrl.js&#10;regis&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/registration.html&#10;cli&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/clientInfoCtrl.js&#10;conta&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/contattaciCtrl.js&#10;app&#9;null&#9;null&#10;pop&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/popupFactory.js&#10;soci&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/socialController.js&#10;login&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/loginControllers.js&#10;appC&#9;null&#9;null&#10;menu&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/menu.html&#10;logi&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/loginControllers.js&#10;cl&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/clientInfoCtrl.js&#10;service&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/serviceFactory.js&#10;inde&#9;FILE&#9;file://D:/Angular/Esoterika/www/index.html&#10;style&#9;FILE&#9;file://D:/Angular/Esoterika/www/css/style.css&#10;oros&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/oroscopoCtrl.js&#10;socialC&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/socialController.js&#10;oro&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/oroscopoCtrl.js&#10;sto&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/storico.html&#10;servi&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/serviceFactory.js&#10;stori&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/storico.html&#10;cons&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/consulto.html&#10;consu&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/consultoCtrl.js&#10;STOR&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/storico.html&#10;ser&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/serviceFactory.js&#10;ind&#9;FILE&#9;file://D:/Angular/Esoterika/www/index.html&#10;clien&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/clientInfoCtrl.js&#10;fil&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/filters/commonFilters.js&#10;ap&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/app.js&#10;servic&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/factory/serviceFactory.js&#10;co&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers.js&#10;st&#9;FILE&#9;file://D:/Angular/Esoterika/www/css/style.css&#10;me&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/menu.html&#10;consult&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/consultoCtrl.js&#10;main&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/mainController.js&#10;carto&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/cartomantiCtrl.js&#10;contr&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers.js&#10;con&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/mainController.js&#10;men&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/menu.html&#10;sty&#9;FILE&#9;file://D:/Angular/Esoterika/www/css/style.css&#10;conf&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/config.js&#10;filter&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/filters/commonFilters.js&#10;index&#9;FILE&#9;file://D:/Angular/Esoterika/www/index.html&#10;cartom&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/cartomanti.html&#10;scree&#9;FILE&#9;file://D:/Angular/Esoterika/www/templates/screen-5.html&#10;R&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/registerController.js&#10;log&#9;FILE&#9;file://D:/Angular/Esoterika/www/js/controllers/loginControllers.js" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Angular\Esoterika\www\css" />
       <recent name="D:\Angular\Esoterika\www\img" />
       <recent name="D:\Angular\Esoterika\www\templates" />
       <recent name="D:\Angular\Esoterika\www\js" />
+      <recent name="D:\Angular\Esoterika\www\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Angular\Esoterika\www\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -489,34 +567,36 @@
       <workItem from="1486531779498" duration="13535000" />
       <workItem from="1486617009595" duration="27846000" />
       <workItem from="1486704190572" duration="2330000" />
-      <workItem from="1486708299651" duration="289000" />
+      <workItem from="1486708299651" duration="3604000" />
+      <workItem from="1487048310286" duration="26950000" />
+      <workItem from="1487134692074" duration="16492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91357000" />
+    <option name="totallyTimeSpent" value="138114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20152092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20139772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46567968" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30820996" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,97 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/templates/clienti.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/registerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/factory/serviceFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/factory/popupFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/factory/validationFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/screen-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -695,24 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/storico.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/factory/validationFactory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/filters/commonFilters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -744,62 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/factory/popupFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/contattaci.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/consultoCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/consulto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/factory/serviceFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/loginControllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="61" column="50" lean-forward="false" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -807,42 +726,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="139" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/clienti.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="101" lean-forward="false" selection-start-line="25" selection-start-column="101" selection-end-line="25" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/cartomanti.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -850,66 +737,256 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/cartomantiCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/registerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/rate_review.html" />
+    <entry file="file://$PROJECT_DIR$/www/templates/oroscopo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/filters/commonFilters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/oroscopo_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/social.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/consulto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/prenato_consulto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/storico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/oroscopoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="60" column="55" lean-forward="true" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/factory/serviceFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/impostazioni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/socialController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="105" lean-forward="false" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="105" />
           <folding>
-            <element signature="e#41#81#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/loginControllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="56" lean-forward="true" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/impostazioniCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/factory/popupFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/contattaci.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/contattaciCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/clientInfoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/cartomantiCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/consultoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="85" column="9" lean-forward="true" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/clienti.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/registerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
