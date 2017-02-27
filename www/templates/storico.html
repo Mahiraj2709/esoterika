@@ -19,13 +19,11 @@
 
                 <ul class="storico-list" ng-hide="payments.length == 0">
                     <li class="row" ng-repeat="payment in payments">
-                        <span class="col">{{payment.amount | currency}}</span>
+                        <span class="col">€&nbsp;{{payment.amount}}</span>
                         <span class="col txt-right">  {{payment.dateonly}} </span>
                     </li>
 
                 </ul>
-
-
             </ion-card-content>
         </div>
     </ion-content>

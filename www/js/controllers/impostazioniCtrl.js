@@ -1,38 +1,47 @@
 /**
  * Created by admin on 2/15/2017.
  */
-ionicModule.controller('ImpostazioniCtrl', function ($scope,popups,services) {
+ionicModule.controller('ImpostazioniCtrl', function ($scope, popups, services) {
     //$ionicSideMenuDelegate.canDragContent(false)
-
     $scope.cleinte = undefined
     $scope.$on('$ionicView.loaded', function () {
         $scope.custoerId = JSON.parse(window.localStorage.getItem("profile")).id
+        console.log($scope.custoerId)
         $scope.pushData = {
-            oroscopo:'0',
-            stream:'0',
-            tv:'0',
-            inlinea:'0',
-            informazioni:'0',
-            problemi:'0',
-            nuoviservizi:'0',
-            taroccoGiorno:'0',
-            id:$scope.custoerId,
+            oroscopo: false,
+            stream: false,
+            tv: false,
+            inlinea: false,
+            informazioni: false,
+            problemi: false,
+            nuoviservizi: false,
+            taroccoGiorno: false,
         }
         services.getpush($scope.custoerId, function (response) {
             if (response.response_status == '1') {
-                    $scope.pushData = response.response_data.push;
-                    $scope.pushData.id = $scope.custoerId
-            }else {
+                if (response.response_data.push != undefined) {
+                    for (var key in response.response_data.push) {
+                        if (response.response_data.push[key] == '1') {
+                            response.response_data.push[key] = true
+                        } else response.response_data.push[key] = false
+                    }
+                    $scope.pushData = response.response_data.push
+                }
+            } else {
                 popups.showAlert(response.response_msg)
             }
         })
-        
     });
-    
     $scope.setPush = function () {
-        services.setpush($scope.pushData,function (response) {
-
+        var pushObj = {}
+        for (var key in $scope.pushData) {
+            if ($scope.pushData[key] == false) pushObj[key] = '0'
+            else if ($scope.pushData[key] == true) pushObj[key] = '1'
+        }
+        pushObj.id = $scope.custoerId
+        //console.log(pushObj)
+        //return
+        services.setpush(pushObj, function (response) {
         })
     }
-
 })

@@ -66,7 +66,7 @@ var ionicModule = angular.module(ionicApplicationName, [
                 views: {
                     'menuContent': {
                         templateUrl: 'templates/storico.html',
-                        controller:'StoricoCtrl'
+                        controller: 'StoricoCtrl'
                     }
                 }
             })
@@ -92,7 +92,7 @@ var ionicModule = angular.module(ionicApplicationName, [
                 views: {
                     'menuContent': {
                         templateUrl: 'templates/screen-2.html',
-                        //controller: 'PlaylistsCtrl'
+                        controller: 'AppCtrl'
                     }
                 }
             })
@@ -141,7 +141,6 @@ var ionicModule = angular.module(ionicApplicationName, [
                     }
                 }
             })
-
             .state('app.prenato', {
                 url: '/prenato',
                 views: {
@@ -151,7 +150,6 @@ var ionicModule = angular.module(ionicApplicationName, [
                     }
                 }
             })
-
             .state('app.oroscope', {
                 url: '/oroscope',
                 views: {
@@ -188,8 +186,6 @@ var ionicModule = angular.module(ionicApplicationName, [
                     }
                 }
             })
-
-
             .state('app.single', {
                 url: '/playlists/:playlistId',
                 views: {
@@ -199,13 +195,8 @@ var ionicModule = angular.module(ionicApplicationName, [
                     }
                 }
             })
-
         // if none of the above states are matched, use this as the fallback
-        console.log(localStorage.getItem('login'))
+    //    console.log(localStorage.getItem('login'))
 //        $urlRouterProvider.otherwise('/app/screen2');
-        if (localStorage.getItem('login')) {
-            $urlRouterProvider.otherwise('/app/screen5');
-        } else {
-            $urlRouterProvider.otherwise('/app/screen2');
-        }
+        $urlRouterProvider.otherwise('/app/screen5');
     });

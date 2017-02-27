@@ -6,6 +6,8 @@
  */
 ionicModule.controller('cartomantiCtrl', function ($scope, services, popups, $location,EmpDataFactory) {
     //$ionicSideMenuDelegate.canDragContent(false)
+
+    $scope.cartomanti = 'Cartomanti'
     $scope.empArray = undefined
     $scope.$on('$ionicView.loaded', function () {
         $scope.custoerId = JSON.parse(window.localStorage.getItem("profile")).id

@@ -9,7 +9,12 @@ ionicModule
         $scope.oroscopes = OroscopeFactory.oroscope
         $scope.selectedDate = {date: undefined};
         $scope.getOroscope = function (oroscopeId) {
-//            var currentDate
+
+            if (!localStorage.getItem('login')) {
+                popups.login();
+                return
+            }
+            //            var currentDate
             if ($scope.selectedDate.date == undefined || $scope.selectedDate.date == '') {
                 popups.showAlert('Seleziona la data!')
                 return
@@ -34,27 +39,23 @@ ionicModule
     })
     .controller('OroscopeDetailCtrl', function ($scope, OroscopeFactory, $cordovaSocialSharing) {
         $scope.oroscopeDetail = OroscopeFactory.data;
-
-        OroscopeFactory.oroscope.forEach( function (oroscope)
-        {
+        OroscopeFactory.oroscope.forEach(function (oroscope) {
             console.log(JSON.stringify(oroscope))
             if (oroscope.id == OroscopeFactory.data.horoscope_sign) {
                 $scope.image = oroscope.image
             }
         });
-        
         $scope.socialSharing = function () {
             var message = OroscopeFactory.data.msg
-            var subject = OroscopeFactory.data.date  + " " +OroscopeFactory.data.horoscope_sign
+            var subject = OroscopeFactory.data.date + " " + OroscopeFactory.data.horoscope_sign
             $cordovaSocialSharing
                 .share(message, subject, null, null) // Share via native share sheet
-                .then(function(result) {
+                .then(function (result) {
                     // Success!
-                }, function(err) {
+                }, function (err) {
                     // An error occured. Show a message to the user
                 });
         }
-
     })
     .factory('OroscopeFactory', function () {
         return {

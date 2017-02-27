@@ -1,19 +1,34 @@
-ionicModule.controller('AppCtrl', function ($scope, $ionicModal, $location, $timeout, popups) {
+ionicModule.controller('AppCtrl', function ($scope, $ionicHistory, $state, $ionicModal, $location, $timeout, popups,$rootScope) {
 
-    // With the new view caching in Ionic, Controllers are only called
-    // when they are recreated or on app start, instead of every page change.
-    // To listen for when this page is active (for example, to refresh data),
-    // listen for the $ionicView.enter event:
-    //$scope.$on('$ionicView.enter', function(e) {
-    //});
-    // Form data for the login modal
+    $rootScope.login = 'Login'
+    $rootScope.notLoggedIn = !localStorage.getItem('login')
+    if ($scope.notLoggedIn) {
+
+    }
+    else {
+        $rootScope.login = 'Log Out'
+    }
+
+    /*$ionicHistory.clearHistory()
+    $ionicHistory.clearCache()*/
+    $state.go($state.current, {}, {reload: true});
     $scope.comingSoon = function () {
         popups.showAlert('Prossimamente!')
+    }
+    $scope.home = function () {
+        $location.url('/app/screen5');
     }
     $scope.cartomani = function () {
         $location.url('/app/cartomanti');
     }
+    $scope.contactti = function () {
+        $location.url('/app/contattaci');
+    }
     $scope.clienti = function () {
+        if (!localStorage.getItem('login')) {
+            popups.login();
+            return
+        }
         $location.url('/app/clienti');
     }
     $scope.oroscope = function () {
@@ -23,10 +38,30 @@ ionicModule.controller('AppCtrl', function ($scope, $ionicModal, $location, $tim
         $location.url('/app/social');
     }
     $scope.impostazioni = function () {
+        if (!localStorage.getItem('login')) {
+            popups.login();
+            return
+        }
         $location.url('/app/impostazioni');
     }
     $scope.logout = function () {
-        popups.logout()
+        if ($rootScope.notLoggedIn) {
+            $location.url('/app/screen2')
+            /*$ionicHistory.clearCache().then(function () {
+            });*/
+            return
+        }
+        popups.logout(function () {
+            $rootScope.login = 'Login'
+            $rootScope.notLoggedIn = true
+            $state.reload().then(function () {
+                $location.url('/app/screen2')
+            });
+
+        })
+    }
+    $scope.comingSoon = function () {
+        popups.showAlert('Prossimamente')
     }
 })
     .controller('PlaylistsCtrl', function ($scope) {
