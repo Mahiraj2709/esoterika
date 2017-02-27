@@ -13,23 +13,23 @@
       <li> <input type="text" placeholder="Nome" ng-model="profile.cognome" required="required" disabled></li>
       <li> <input type="text" placeholder="Numero" ng-model="profile.tel1" required="required" disabled></li>
     </ul>
-    <h3>Servizio</h3>
+<h3>Servizio</h3>
     <ul>
-      <div>
+      
           <li>
             <select ng-model="consulto.servizio" ng-options="serv for serv in servizo">
             </select>
 
-          <li><input type="checkbox" ng-model="checkValue.value"> <p ng-click="openPrivacyPolicy()">Informativa sulla privacy </p></li>
+          <li><input type="checkbox" class="infor_chk" ng-model="checkValue.value"> <span class="informative" ng-click="openPrivacyPolicy()">Informativa sulla privacy </span></li>
           <li><button class="button button-block est-btns" type="submit" ng-click="bookAppointment()">PRENOTA</button> </li>
           </li>
 
-      </div>
+
      <!--<li> <input type="text" placeholder="" required="required" ></li>
       <li> <input type="text" placeholder="Servizio 899" required="required" ></li>
       <li> <input type="text" placeholder="Servizio Cortesia" required="required" ></li>
       <li> <input type="text" placeholder="Cartomazia per l’Estero" required="required" ></li>   
-      <li> <input type="text" placeholder="Servizio Notturno" required="required" ></li>   
+      <li> <input type="text" placeholder="Servizio Notturno" required="required" ></li>   -->
 
       </ul>
       </div>

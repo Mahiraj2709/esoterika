@@ -149,3 +149,14 @@ input[type="text"],input[type="password"],input[type="tel"],input[type="email"],
     font-family: arial;
     opacity: 0.3;
 }
+
+.infor_chk{22px;height: 22px; vertical-align:middle;}
+.informative{ vertical-align:middle;}
+	
+/*ios css only*/
+.regis_sec select { -webkit-appearance: none !important;appearance: none !important;background:#e1edfa url("../img/down_arrow.png") no-repeat; background-position:top 10px right 10px; }
+.feild_sec input[type='date'] { -webkit-appearance: none !important;appearance: none !important; width:100%;}
+
+
+
+

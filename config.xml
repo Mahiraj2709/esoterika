@@ -73,4 +73,7 @@
   </platform>
   <icon src="resources/ios/icon/icon-small@3x.png"/>
   <plugin name="cordova-plugin-inappbrowser" spec="~1.6.1"/>
+  <access origin="tel:*" launch-external="yes"/>
+  <allow-intent href="tel:*"/>
+  <allow-navigation href="*"/>
 </widget>
