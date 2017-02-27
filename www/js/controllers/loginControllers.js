@@ -1,7 +1,7 @@
 /**
  * Created by admin on 2/6/2017.
  */
-ionicModule.controller('LoginCtrl', function ($scope, services, popups, $location, $ionicSideMenuDelegate) {
+ionicModule.controller('LoginCtrl', function ($scope, $rootScope, services, popups, $location, $ionicSideMenuDelegate,$rootScope) {
     $ionicSideMenuDelegate.canDragContent(false)
     $scope.user = {
         cognome: undefined,
@@ -29,8 +29,12 @@ ionicModule.controller('LoginCtrl', function ($scope, services, popups, $locatio
             services.login($scope.user, function (response) {
                 if (response.response_status == '1') {
                     if (response.response_key == 'SUCCESS') {
+
+                        $rootScope.login = 'Log Out'
                         window.localStorage.setItem("profile", JSON.stringify(response.response_data.profile));
                         window.localStorage.setItem("login", true);
+
+                        $rootScope.notLoggedIn = false
                         //popups.showMessage(response.response_msg)
                         $location.url('/app/screen5')
                         //$state.go($state.current, {}, {reload: true});

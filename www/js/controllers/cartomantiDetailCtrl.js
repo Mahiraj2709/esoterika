@@ -30,21 +30,13 @@ ionicModule.controller('cartomantiDetailCtrl', function ($scope, services, popup
             return '--OFF--'
         }else return empDetail.starttime +" "+ empDetail.endtime;
     }
-    /*$scope.openConsulto = function () {
-        $location.url('/app/cartomanti_detail/'+empId);
-    }*/
 
-   /* {
-        "no": "15",
-        "nomearte": "Alida",
-        "descrizione": "Maestra di Catottromanzia<br>\r\n<b>Legge:</b><br>\r\n- Tarocchi in amore lavoro fortuna<br>\r\n- Specchi e candele<br>\r\n<b>Specializzato in:</b><br>\r\n- Futuro remoto<br>\r\n- Destino di coppia",
-        "start_time": "03",
-        "end_time": "23",
-        "color": "#F76F6F",
-        "schedules": [],
-        "schedule_msg_key": "SCHEDULE_NOT_FOUND"
-    }*/
-
+    $scope.openConsulto = function () {
+        if(!localStorage.getItem('login')) {
+            popups.login(); return
+        }
+        $location.url('/app/consulto')
+    }
 })
 
 

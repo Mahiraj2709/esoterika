@@ -1,26 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Paypal payment</title>
 
-<div class="feild_sec regis_sec">
-    <p>Indica il numero di telefono su cui acquistare minuti di conversazione! Completa il pagamento, poi chiama! </p>
+    <style>
+        *{box-sizing: border-box;-webkit-box-sizing: border-box;}
+        .overlay_bg {
+            position: fixed;
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            z-index: 999;
+        }
 
-    <ul>
-        <li> <input type="tel" placeholder="330123456" required="required" ></li>
-        <li>
-            <select name="vccamount" title="ricarica">
-                <option value="0">€&nbsp;10,00 (10 minuti)</option>
-                <option value="1">€&nbsp;15,00 (15 minuti)</option>
-                <option value="2">€&nbsp;20,00 (20 minuti)</option>
-                <option value="3">€&nbsp;25,00 (25 minuti)</option>
-                <option value="4">€&nbsp;30,00 (30 minuti)</option>
-                <option value="5">€&nbsp;50,00 (50 minuti)</option>
-                <option value="6">€&nbsp;100,00 (100 minuti)</option>
-            </select>
-        </li>
-        <li>  <input class="paybtn" type="image" src="img/pagapp.png" alt="Submit"> </li>
+        .popup-sec {
+            position: relative;
+            width: 95%;
+            height: 95%;
+            background: #fff;
+            margin: 2.5% auto;
+            padding: 5px 20px;
+            overflow-y: auto;
+        }
+
+        .close_btn {
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            font-size: 24px;
+        }
+
+        .message_popup {
+            max-width: 95%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #fff;
+            height: 200px;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .message_popup_head {
+            background: #499bc9;
+            height: 45px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            border-radius: 4px 4px 0 0;
+            line-height: 45px;
+            font-size: 18px;
+        }
+
+        .message_popup_head .cross_popup {
+            color: #fff;
+            font-size: 26px;
+            position: absolute;
+            right: 8px;
+            top: 2px;
+            cursor: pointer;
+        }
+
+        .hgt_large {
+            height: 300px;
+        }
+
+        .reg_sec {
+            padding: 0 10px;
+            margin-top: 10px;
+        }
+
+        .reg_sec ul {
+            margin: 10px 0;
+            padding: 0;
+        }
+
+        .reg_sec ul li {
+            margin-bottom: 8px;
+            list-style: none;
+        }
+
+        .reg_sec input[type="text"], .reg_sec select {
+            border: 1px solid #ccc;
+            background: #fff;
+            box-shadow: none;
+            border-radius: 0;
+            width: 100%;
+            height: 34px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+    </style>
+
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <script type="text/javascript">
+
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+        function vccalert(f) {
+            f.style.borderColor = 'red';
+        }
+        function vccok(f) {
+            f.style.borderColor = 'green';
+        }
+        function vccchk(f) {
+            c1 = f.vcccode.value.length >= 6;
+            if (!c1) {
+                vccalert(f.vcccode);
+            }
+            else {
+                vccok(f.vcccode);
+            }
+            return c1;
+        }
+    </script>
+</head>
+<body>
+
+<section class="overlay_bg">
+
+    <div class="message_popup hgt_large">
+        <div class="message_popup_head" ng-hide="true"> Ricaricare <span class="cross_popup">
+            <i class="fa fa-times-circle" aria-hidden="true"></i>   </span></div>
+
+        <div class="feild_sec reg_sec">
+
+            <form id="vccrecharge"
+                  action="http://www.virtualcallcenter.it/torecharge.php?tid=803af03200eb76344e3d6e2f3e58eeb3"
+                  method="POST" onsubmit="return vccchk(this);"
+                  style="width:100%; text-align:left; " valign="middle">
+                <p>Indica il numero di telefono su cui acquistare minuti di conversazione! Completa il pagamento, poi
+                    chiama! </p>
+
+                <ul>
+                    <li>
+                        <input title="numero" name="vcccode" size="8" placeholder="330123456" type="text" onchange="vccchk(this.form);" style="border-color: red;" required="required">
+                    </li>
+                    <li>
+                        <select name="vccamount" title="ricarica">
+                            <option value="0">€&nbsp;10,00 (10 minuti)</option>
+                            <option value="1">€&nbsp;15,00 (15 minuti)</option>
+                            <option value="2">€&nbsp;20,00 (20 minuti)</option>
+                            <option value="3">€&nbsp;25,00 (25 minuti)</option>
+                            <option value="4">€&nbsp;30,00 (30 minuti)</option>
+                            <option value="5">€&nbsp;50,00 (50 minuti)</option>
+                            <option value="6">€&nbsp;100,00 (100 minuti)</option>
+                        </select>
+                    </li>
+                    <li><input type="image" title="Paypal" src="http://www.studioesoterika.net/images/pagapp.png"
+                               alt="Paga con Paypal" height="22" ng-click="submitForm()"></li>
 
 
-    </ul>
+                </ul>
 
-</div>
-</ion-card-content>
+        </div>
+    </div>
 
-</div>
+</section>
+
+
+</body>
+</html>

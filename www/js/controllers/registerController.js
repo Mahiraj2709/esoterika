@@ -1,7 +1,7 @@
 /**
  * Created by admin on 2/6/2017.
  */
-ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$location) {
+ionicModule.controller('RegisterCtrl', function ($scope, $rootScope, services, popups,$location,$rootScope) {
     $scope.userRegiter = {
         cognome: undefined,
         datanascitaid: undefined,
@@ -18,9 +18,11 @@ ionicModule.controller('RegisterCtrl', function ($scope, services, popups,$locat
         if (validUser()) {
             services.register($scope.userRegiter, function (response) {
                 if(response.response_status == SUCCESS_STATUS) {
+                    $rootScope.login = 'Log Out'
                     window.localStorage.setItem("profile", JSON.stringify(response.response_data));
                     //popups.showMessage(response.response_data.msg)
                     window.localStorage.setItem("login", true);
+                    $rootScope.notLoggedIn = false
                     $location.url('/app/screen5')
                 }else {
                     popups.showAlert(response.response_msg)

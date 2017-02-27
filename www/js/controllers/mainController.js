@@ -12,6 +12,14 @@ ionicModule.controller('MainCtrl', function ($scope, services, $state,popups, $l
 
 
     $scope.$on('$ionicView.enter', function(){
+
+        $scope.profile = JSON.parse(window.localStorage.getItem("profile"))
+        if (!localStorage.getItem('login')) {
+            $scope.profile = {}
+            $scope.profile.msg = 'Potrai usare l’applicazione anche senza registrarti, anche se con qualche limitazione. Scorri il menù a sinistra per aprire tutte le sezioni dell’App'
+            return
+        }
+
         // Anything you can think of
         console.log($ionicHistory.viewHistory());
         //load the modal again we come from customer profile view
@@ -22,25 +30,13 @@ ionicModule.controller('MainCtrl', function ($scope, services, $state,popups, $l
             $state.go($state.current, {}, {reload: true});
             $ionicHistory.clearHistory();
             $ionicHistory.clearCache();
+            console.log('recreated')
         }
+
     });
 
-    $scope.$on('$ionicView.loaded', function () {
-        $scope.profile = JSON.parse(window.localStorage.getItem("profile"))
-    });
+    /*$scope.$on('$ionicView.loaded', function () {
 
-
+    });*/
 })
 
-
-/*
- "id":"00008",
- "tariffa":"Non disponible",
- "nome":"Non disponible",
- "cognome":"mahiraj",
- "datanascitaid":"1993-09-26",
- "tel1":"7065257289",
- "address":"Non disponible",
- "metodopagamento":"Non disponible",
- "amount":"0",
- "minutes":"0"*/
