@@ -17,7 +17,7 @@ var ionicModule = angular.module(ionicApplicationName, [
                 navigator.splashscreen.hide();
             }, 1500);
             if (window.cordova && window.cordova.plugins.Keyboard) {
-                cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+                cordova.plugins.Keyboard.hideKeyboardAccessoryBar(false);
                 cordova.plugins.Keyboard.disableScroll(true);
             }
             if (window.StatusBar) {
@@ -26,7 +26,8 @@ var ionicModule = angular.module(ionicApplicationName, [
             }
         });
     })
-    .config(function ($stateProvider, $urlRouterProvider) {
+    .config(function ($stateProvider, $urlRouterProvider,$ionicConfigProvider) {
+            $ionicConfigProvider.backButton.previousTitleText(false).text('')
         $stateProvider
             .state('app', {
                 url: '/app',
